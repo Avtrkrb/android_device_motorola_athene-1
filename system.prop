@@ -202,6 +202,9 @@ dalvik.vm.boot-dex2oat-threads=4
 dalvik.vm.dex2oat-threads=2
 dalvik.vm.image-dex2oat-threads=4
 
+# DEX
+ro.sys.fw.dex2oat_thread_count=4
+
 # Perf
 ro.vendor.gt_library=libqti-gt.so
 ro.vendor.at_library=libqti-at.so
@@ -212,8 +215,6 @@ ro.vendor.extension_library=libqti-perfd-client.so
 
 # Fingerprint
 persist.qfp=false
-
-persist.dpm.feature=0
 
 # USB
 ro.usb.mtp=2e82
@@ -261,3 +262,4 @@ ro.mot.build.product.increment=24
 ro.mot.build.version.release=24.24
 ro.mot.ignore_csim_appid=true
 ro.cutoff_voltage_mv=3200
+persist.dpm.feature=0
