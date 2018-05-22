@@ -202,8 +202,6 @@ persist.debug.coresight.config=stm-events
 dalvik.vm.boot-dex2oat-threads=4
 dalvik.vm.dex2oat-threads=2
 dalvik.vm.image-dex2oat-threads=4
-dalvik.vm.isa.arm.features=default
-dalvik.vm.isa.arm.variant=cortex-a53
 
 # Perf
 ro.vendor.gt_library=libqti-gt.so
@@ -215,9 +213,6 @@ ro.vendor.extension_library=libqti-perfd-client.so
 
 # Fingerprint
 persist.qfp=false
-
-# DEX
-ro.sys.fw.dex2oat_thread_count=4
 
 persist.dpm.feature=0
 
@@ -243,7 +238,6 @@ wifi.interface=wlan0
 wifi.supplicant_scan_interval=180
 
 # Play Store
-ro.com.google.clientidbase=android-motorola
 ro.com.google.clientidbase.ms=android-motorola
 ro.com.google.clientidbase.am=android-motorola
 ro.com.google.clientidbase.gmm=android-motorola
