@@ -107,10 +107,6 @@ PRODUCT_PACKAGES += \
     libbson \
     Snap
 
-# Disable Vulkan
-PRODUCT_PROPERTY_OVERRIDES += \
-    persist.graphics.vulkan.disable=true
- 
 # CMActions
 PRODUCT_PACKAGES += \
     CMActions
