@@ -29,7 +29,6 @@ persist.radio.sib16_support=1
 persist.sys.qc.sub.rdump.on=1
 persist.sys.qc.sub.rdump.max=0
 persist.radio.apn_delay=5000
-keyguard.no_require_sim=true
 persist.radio.RATE_ADAPT_ENABLE=1
 persist.radio.REVERSE_QMI=0
 persist.radio.ROTATION_ENABLE=1
