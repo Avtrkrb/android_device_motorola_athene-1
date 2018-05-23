@@ -60,6 +60,9 @@ mdc_initial_max_retry=10
 persist.radio.sar_sensor=1
 persist.radio.call.audio.output=0
 ro.telephony.call_ring.multiple=false
+persist.radio.add_power_save=1
+persist.radio.apm_sim_not_pwdn=1
+persist.radio.oem_socket=false
 
 # Display
 debug.sf.hw=1
