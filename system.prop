@@ -29,7 +29,6 @@ persist.radio.sib16_support=1
 persist.sys.qc.sub.rdump.on=1
 persist.sys.qc.sub.rdump.max=0
 persist.radio.apn_delay=5000
-keyguard.no_require_sim=true
 persist.radio.RATE_ADAPT_ENABLE=1
 persist.radio.REVERSE_QMI=0
 persist.radio.ROTATION_ENABLE=1
@@ -202,8 +201,6 @@ persist.debug.coresight.config=stm-events
 dalvik.vm.boot-dex2oat-threads=4
 dalvik.vm.dex2oat-threads=2
 dalvik.vm.image-dex2oat-threads=4
-dalvik.vm.isa.arm.features=default
-dalvik.vm.isa.arm.variant=cortex-a53
 
 # Perf
 ro.vendor.gt_library=libqti-gt.so
@@ -218,8 +215,6 @@ persist.qfp=false
 
 # DEX
 ro.sys.fw.dex2oat_thread_count=4
-
-persist.dpm.feature=0
 
 # USB
 ro.usb.mtp=2e82
@@ -268,3 +263,4 @@ ro.mot.build.product.increment=24
 ro.mot.build.version.release=24.24
 ro.mot.ignore_csim_appid=true
 ro.cutoff_voltage_mv=3200
+persist.dpm.feature=0
